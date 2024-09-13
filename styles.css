@@ -110,6 +110,47 @@ button:hover {
     background-color: #634B41;
 }
 
+/* Save Files Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.6); /* semi-transparent background */
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #EAD8A9;
+    color: #EAD8A9;
+}
+
+table th {
+    background-color: #A53022;
+    color: #EAD8A9;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+table button {
+    padding: 8px 12px;
+    background-color: #A53022;
+    color: #EAD8A9;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table button:hover {
+    background-color: #634B41;
+}
+
+
 /* Footer */
 footer {
     background-color: #273E43;
