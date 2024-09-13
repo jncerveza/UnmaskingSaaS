@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background: url('https://github.com/jncerveza/UnmaskingSaaS/blob/main/abandoned_haws.jpg') no-repeat center center fixed;
+    background: url('https://github.com/jncerveza/UnmaskingSaaS/raw/main/abandoned_haws.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #EAD8A9;
     margin: 0;
@@ -35,7 +35,7 @@ header {
 
 .logo img {
     max-height: 50px;
-    background: url('https://github.com/jncerveza/UnmaskingSaaS/blob/main/Logo.jpg');
+    background: url('https://github.com/jncerveza/UnmaskingSaaS/raw/main/Logo.jpg');
 }
 
 nav ul {
