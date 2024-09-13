@@ -1,84 +1,110 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #1e1e1e;
-    color: #f1f1f1;
+    background-color: #021C29;
+    color: #EAD8A9;
     margin: 0;
+    padding: 0;
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #A53022;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #EAD8A9;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #B0765C;
+}
+
+/* Main Content */
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    text-align: center;
+    padding: 40px;
 }
 
-.container {
-    max-width: 500px;
-    width: 100%;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-color: #2b2b2b;
-    border-radius: 10px;
+h1, h2 {
+    color: #B0765C;
 }
 
-/* Auth Box (Login/Registration) */
-.auth-box {
+form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: #333;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+    width: 300px;
 }
 
-.auth-box form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.auth-box label {
-    margin-bottom: 5px;
-}
-
-.auth-box input {
+input {
     padding: 10px;
-    margin-bottom: 20px;
     border: none;
     border-radius: 4px;
-    background-color: #444;
-    color: white;
-    outline: none;
+    background-color: #273E43;
+    color: #EAD8A9;
 }
 
-.auth-box button {
+button {
     padding: 10px;
-    background-color: #5cb85c;
-    color: white;
+    background-color: #A53022;
+    color: #EAD8A9;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
-.auth-box button:hover {
-    background-color: #4cae4c;
+button:hover {
+    background-color: #634B41;
 }
 
-/* Game Area Styles */
-.game-area {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #333;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+/* Footer */
+footer {
+    background-color: #273E43;
+    color: #EAD8A9;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.game-area h1 {
-    margin-bottom: 20px;
+footer p {
+    margin: 5px 0;
 }
 
-.game-status {
-    margin-top: 10px;
+footer a {
+    color: #A53022;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #B0765C;
 }
