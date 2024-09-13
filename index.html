@@ -3,50 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unmasking - Save Your Game</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Create Account - Unmasking Game</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Registration Section -->
-        <div id="register-section" class="auth-box">
-            <h2>Create an Account</h2>
-            <form id="register-form">
-                <label for="reg-username">Username</label>
-                <input type="text" id="reg-username" name="reg-username" required>
-
-                <label for="reg-password">Password</label>
-                <input type="password" id="reg-password" name="reg-password" required>
-
-                <button type="submit">Register</button>
-            </form>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Unmasking Logo">
         </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <!-- Login Section -->
-        <div id="login-section" class="auth-box" style="display:none;">
-            <h2>Login</h2>
-            <form id="login-form">
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username" required>
+    <!-- Main Content -->
+    <main>
+        <h2>Create Your Account</h2>
+        <form id="register-form">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
 
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
 
-                <button type="submit">Login</button>
-            </form>
-        </div>
+            <button type="submit">Register</button>
+        </form>
+    </main>
 
-        <!-- Game Save Section -->
-        <div id="game-section" class="game-area" style="display: none;">
-            <h1>Welcome, <span id="player-name"></span></h1>
-            <button id="save-game-btn">Save Game</button>
-            <button id="load-game-btn">Load Game</button>
-            <div class="game-status">
-                <p id="game-status-message"></p>
-            </div>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
+    <!-- Footer -->
+    <footer>
+        <p>Download the game: <a href="#">Download Link</a></p>
+        <p>Follow us on: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
 </body>
 </html>
