@@ -13,14 +13,7 @@ body {
 
 /* Content Container with Blurred Background */
 .main-container {
-    background: url('abandoned_haws.jpg') no-repeat center center fixed;
-    backdrop-filter: blur(10px); /* Blur the background behind the box */
-    padding: 30px;
-    border-radius: 10px;
-    max-width: 800px;
-    margin: 100px auto;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
-    text-align: center;
+  
 }
 
 /* Header */
@@ -66,6 +59,13 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
+    background: url('abandoned_haws.jpg') no-repeat center center fixed;
+    backdrop-filter: blur(10px); /* Blur the background behind the box */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 100px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 }
 
 h1, h2 {
