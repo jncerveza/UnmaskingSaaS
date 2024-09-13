@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     background: url('abandoned_haws.jpg') no-repeat center center fixed;
@@ -19,7 +18,7 @@ body {
     margin: 100px auto;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
     text-align: center;
-    z-index: 1; /* Ensures the content stays above the background */
+    z-index: 1; 
 }
 
 .blur-background {
@@ -29,8 +28,8 @@ body {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.4);
-    filter: blur(80px);
-    z-index: -1; /* Ensures the blur layer is behind the content */
+    filter: blur(30px);
+    z-index: -1;
     border-radius: 10px;
 }
 
