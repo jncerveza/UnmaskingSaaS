@@ -14,7 +14,6 @@ body {
 /* Content Container with Blurred Background */
 .main-container {
     background: url('abandoned_haws.jpg') no-repeat center center fixed;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent */
     backdrop-filter: blur(10px); /* Blur the background behind the box */
     padding: 30px;
     border-radius: 10px;
