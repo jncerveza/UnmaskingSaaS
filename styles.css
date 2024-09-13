@@ -1,13 +1,26 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #021C29;
+    background: url('abandoned_haws.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #EAD8A9;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+/* Content Container with Blurred Background */
+.main-container {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent */
+    backdrop-filter: blur(10px); /* Blur the background behind the box */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 100px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 /* Header */
@@ -22,6 +35,7 @@ header {
 
 .logo img {
     max-height: 50px;
+    background: url('logo.jpg');
 }
 
 nav ul {
@@ -52,7 +66,6 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 40px;
 }
 
 h1, h2 {
