@@ -59,7 +59,7 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url('abandoned_haws.jpg') no-repeat center center fixed;
+    background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px); /* Blur the background behind the box */
     padding: 30px;
     border-radius: 10px;
